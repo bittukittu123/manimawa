@@ -49,6 +49,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🙏 Please Read', url='https://t.me/TBOriginals/569'),
             InlineKeyboardButton('🤔 How To Use', url='https://t.me/TBOriginals/568')
+            ],[
+            InlineKeyboardButton('❤️ Donate', url='https://t.me/TBDonate')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
