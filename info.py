@@ -19,7 +19,7 @@ BOT_TOKEN = '5250977884:AAHF-Cq5ROexcOGrnAs_-EL7nXDrzsS_Qak' #(environ['BOT_TOKE
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSlc82X2BtVP9FTKLAaAyb3cbmVsmUgNkJQnjBvJGWk97p76_WMJw41jTt3dyxJUW9DEnrQY_bYUADtSA1ObKBsbgOkj1o9nUGd7Hj4w2UfUTSCh0kTWn7VJN0AmnnbDj1CttueWi2T2ieHzY_TMKMgJfTXeWoNZQOKhPP4g2SdRUlkwIOazV4CwPn1Q/s320/photo_2022-11-28_21-50-28.jpg')).split()
+PICS = (environ.get('PICS', 'https://wallpapercave.com/wp/wp7805698.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '929779821').split()]
