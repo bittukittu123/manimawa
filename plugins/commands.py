@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('❤️ Donate', url='https://t.me/TBDonate'),
             ],[
-            InlineKeyboardButton('🙏 Please Read', url='https://t.me/TBOriginals/569'),
+            InlineKeyboardButton('🙏 Please Read', url='https://t.me/TBOriginals/1062'),
             InlineKeyboardButton('🤔 How To Use', url='https://t.me/TBOriginals/568')
             ],[
             InlineKeyboardButton('🥰 Deals Channel', url='https://t.me/Telugubro_Deals')
